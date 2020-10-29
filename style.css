@@ -2,6 +2,10 @@
   outline: none;
 }
 
+body, html {
+  width: 100%;
+}
+
 .delete {
   position: absolute;
   border: none;
@@ -42,16 +46,4 @@ input {
 
 ul {
   padding-left: 10px;
-}
-
-@media only screen and (max-width: 768px){
-  .delete {
-    position: relative;
-    margin-right: 10px;
-  }
-  
-  ul li{
-    display: flex;
-    justify-content: space-between;
-  }
 }
