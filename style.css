@@ -1,0 +1,28 @@
+*:focus {
+  outline: none;
+}
+
+.delete {
+  position: absolute;
+  border: none;
+  color: red;
+  font-size: 10px;
+  outline: none;
+  background: none;
+  left: 200px;
+}
+.delete:active {
+  color: blue;
+}
+
+ul li{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
