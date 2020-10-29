@@ -6,7 +6,7 @@
   position: absolute;
   border: none;
   color: red;
-  font-size: 10px;
+  font-size: 12px;
   outline: none;
   background: none;
   left: 200px;
@@ -25,4 +25,21 @@ ul li{
 
 .done {
   text-decoration: line-through;
+}
+
+input {
+  background-color: white;
+  border: 1px solid rgb(209, 209, 209);
+  padding: 10px;
+}
+
+#enter {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to right, rgb(150, 56, 72), rgb(175, 57, 77));
+  border: 1px solid rgb(199, 199, 199);
+}
+
+ul {
+  padding-left: 10px;
 }
